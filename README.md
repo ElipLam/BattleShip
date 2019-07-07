@@ -13,10 +13,9 @@ Create Window Server with Amazon Web Services and software installation:
 
 2. Install
 - Edit file  /inludes/config.php
- 
 	/* Database settings */
-	/* ----------------- */
 	
+	/* ----------------- */
 	$GLOBALS['_DEFAULT_DATABASE']['hostname'] = ''; // the URI of the MySQL server host
 	$GLOBALS['_DEFAULT_DATABASE']['username'] = ''; // the MySQL user's name
 	$GLOBALS['_DEFAULT_DATABASE']['password'] = ''; // the MySQL user's password
