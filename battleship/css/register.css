@@ -1,0 +1,77 @@
+/*register.php*/
+.container-register100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #66ff66;
+  background: -webkit-linear-gradient(-135deg, #1affa3, #4158d0);
+  background: -o-linear-gradient(-135deg, #1affa3, #4158d0);
+  background: -moz-linear-gradient(-135deg, #1affa3, #4158d0);
+  background: linear-gradient(-135deg, #1affa3, #4158d0);
+}
+
+.wrap-register100 {
+  width: 960px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 130px 100px 95px;
+}
+
+.register100-form-title {
+  font-family: Poppins-Bold;
+  font-size: 24px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+
+  width: 100%;
+  display: block;
+}
+
+.register100 {
+  justify-content: center;
+  align-items: center;
+}
+
+
+.label100register{
+	margin-top: 12px;
+	float: left;
+	width: 140px
+}
+
+.input100register {
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+
+  display: inline-block;
+  background: #e6e6e6;
+  height: 40px;
+  border-radius: 25px;
+  padding: 0 30px 0 30px;
+}
+
+.wrap-button100 {
+  position: relative;
+  width: 100%;
+  margin: 30px 30px 30px 130px; 
+}

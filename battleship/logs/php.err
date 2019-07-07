@@ -1,0 +1,984 @@
+[07-Nov-2018 07:00:31 Europe/Berlin] PHP Notice:  Undefined index: _DEFAULT_TIMEZONE in C:\xampp\htdocs\battleship-master\includes\inc.global.php on line 60
+[07-Nov-2018 07:00:31 Europe/Berlin] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\battleship-master\includes\inc.global.php on line 60
+[07-Nov-2018 07:00:32 Europe/Berlin] PHP Notice:  Use of undefined constant T_SETTINGS - assumed 'T_SETTINGS' in C:\xampp\htdocs\battleship-master\classes\settings.class.php on line 409
+[07-Nov-2018 07:00:32 Europe/Berlin] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship-master\index.php on line 9
+[07-Nov-2018 07:00:32 Europe/Berlin] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship-master\index.php on line 10
+[07-Nov-2018 07:00:32 Europe/Berlin] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::__construct: Missing MySQL configuration data' in C:\xampp\htdocs\battleship-master\classes\mysql.class.php:90
+Stack trace:
+#0 C:\xampp\htdocs\battleship-master\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#1 C:\xampp\htdocs\battleship-master\classes\game.class.php(1481): Mysql::get_instance()
+#2 C:\xampp\htdocs\battleship-master\classes\game.class.php(1634): Game::get_list(NULL, false)
+#3 C:\xampp\htdocs\battleship-master\index.php(10): Game::check_turns(NULL)
+#4 {main}
+  thrown in C:\xampp\htdocs\battleship-master\classes\mysql.class.php on line 90
+[07-Nov-2018 06:04:26 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 06:05:10 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 06:06:06 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 06:07:44 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 06:08:10 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 06:12:08 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 06:12:40 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[07-Nov-2018 13:49:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Access to undeclared static property: Player::$password in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 635
+[07-Nov-2018 13:50:43 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 635
+[07-Nov-2018 13:50:49 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 635
+[07-Nov-2018 13:50:49 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 635
+[07-Nov-2018 13:50:50 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 635
+[07-Nov-2018 13:50:50 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 635
+[09-Nov-2018 15:30:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:30:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:30:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:30:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:31:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:31:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:31:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:31:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:32:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:32:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:34:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:34:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:35:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:35:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:37:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:37:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:38:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:38:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:39:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:39:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:39:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:39:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:40:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:40:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 15:40:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 135
+[09-Nov-2018 15:40:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\login_bat.php on line 143
+[09-Nov-2018 21:53:09 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 724
+[09-Nov-2018 21:54:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship-master\login.php on line 21
+[09-Nov-2018 21:54:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship-master\login.php on line 22
+[09-Nov-2018 21:54:52 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\includes\inc.global.php on line 105
+[09-Nov-2018 21:54:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship-master\login.php on line 21
+[09-Nov-2018 21:54:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship-master\login.php on line 22
+[09-Nov-2018 21:55:14 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:55:14 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\includes\inc.global.php on line 105
+[09-Nov-2018 21:55:45 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:55:51 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:55:54 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:56:20 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:56:23 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:56:30 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 21:59:05 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 22:00:58 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 22:01:00 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 22:01:07 Asia/Ho_Chi_Minh] PHP Notice:  A session had already been started - ignoring session_start() in C:\xampp\htdocs\battleship-master\classes\player.class.php on line 677
+[09-Nov-2018 22:53:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 112
+[09-Nov-2018 22:53:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 118
+[09-Nov-2018 22:53:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 124
+[09-Nov-2018 22:53:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 130
+[09-Nov-2018 22:53:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\register.php on line 136
+[09-Nov-2018 22:53:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: confirm_password_err in C:\xampp\htdocs\battleship-master\register.php on line 141
+[09-Nov-2018 22:53:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 112
+[09-Nov-2018 22:53:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 118
+[09-Nov-2018 22:53:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 124
+[09-Nov-2018 22:53:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 130
+[09-Nov-2018 22:53:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\register.php on line 136
+[09-Nov-2018 22:53:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: confirm_password_err in C:\xampp\htdocs\battleship-master\register.php on line 141
+[09-Nov-2018 23:00:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 112
+[09-Nov-2018 23:00:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 118
+[09-Nov-2018 23:00:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 124
+[09-Nov-2018 23:00:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username_err in C:\xampp\htdocs\battleship-master\register.php on line 130
+[09-Nov-2018 23:00:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password_err in C:\xampp\htdocs\battleship-master\register.php on line 136
+[09-Nov-2018 23:00:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: confirm_password_err in C:\xampp\htdocs\battleship-master\register.php on line 141
+[09-Nov-2018 23:33:07 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship-master\classes\email.class.php on line 183
+[14-Nov-2018 13:39:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship-master\index.php on line 9
+[14-Nov-2018 13:39:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship-master\index.php on line 10
+[14-Nov-2018 13:39:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::connect: There was an error connecting to the server' in C:\xampp\htdocs\battleship-master\classes\mysql.class.php:242
+Stack trace:
+#0 C:\xampp\htdocs\battleship-master\classes\mysql.class.php(282): Mysql->connect()
+#1 C:\xampp\htdocs\battleship-master\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship-master\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship-master\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship-master\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship-master\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship-master\classes\mysql.class.php on line 242
+[14-Nov-2018 13:46:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:46:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:46:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::connect: There was an error connecting to the server' in C:\xampp\htdocs\battleship\classes\mysql.class.php:242
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(282): Mysql->connect()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 242
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::select: There was an error selecting the database' in C:\xampp\htdocs\battleship\classes\mysql.class.php:262
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(283): Mysql->select()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 262
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:47:09 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::select: There was an error selecting the database' in C:\xampp\htdocs\battleship\classes\mysql.class.php:262
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(283): Mysql->select()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 262
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 261
+[14-Nov-2018 13:48:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::select: There was an error selecting the database' in C:\xampp\htdocs\battleship\classes\mysql.class.php:262
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(283): Mysql->select()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 262
+[14-Nov-2018 13:49:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:49:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:49:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::connect: There was an error connecting to the server' in C:\xampp\htdocs\battleship\classes\mysql.class.php:242
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(282): Mysql->connect()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 242
+[14-Nov-2018 13:49:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:49:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:49:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::connect: There was an error connecting to the server' in C:\xampp\htdocs\battleship\classes\mysql.class.php:242
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(282): Mysql->connect()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 242
+[14-Nov-2018 13:49:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 9
+[14-Nov-2018 13:49:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: player_id in C:\xampp\htdocs\battleship\index.php on line 10
+[14-Nov-2018 13:49:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'MySQLException' with message 'Mysql::connect: There was an error connecting to the server' in C:\xampp\htdocs\battleship\classes\mysql.class.php:242
+Stack trace:
+#0 C:\xampp\htdocs\battleship\classes\mysql.class.php(282): Mysql->connect()
+#1 C:\xampp\htdocs\battleship\classes\mysql.class.php(107): Mysql->connect_select()
+#2 C:\xampp\htdocs\battleship\classes\mysql.class.php(1013): Mysql->__construct(NULL)
+#3 C:\xampp\htdocs\battleship\classes\game.class.php(1481): Mysql::get_instance()
+#4 C:\xampp\htdocs\battleship\classes\game.class.php(1634): Game::get_list(NULL, false)
+#5 C:\xampp\htdocs\battleship\index.php(10): Game::check_turns(NULL)
+#6 {main}
+  thrown in C:\xampp\htdocs\battleship\classes\mysql.class.php on line 242
+[14-Nov-2018 15:10:24 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function log_cmn_ged() in C:\xampp\htdocs\battleship\classes\player.class.php on line 263
+[14-Nov-2018 15:10:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function log_cmn_ged() in C:\xampp\htdocs\battleship\classes\player.class.php on line 263
+[14-Nov-2018 15:10:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function log_cmn_ged() in C:\xampp\htdocs\battleship\classes\player.class.php on line 263
+[14-Nov-2018 15:30:35 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\battleship\classes\player.class.php on line 319
+[14-Nov-2018 15:30:39 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\battleship\classes\player.class.php on line 319
+[14-Nov-2018 15:30:47 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\battleship\classes\player.class.php on line 319
+[14-Nov-2018 15:31:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:31:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:33:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\battleship\classes\player.class.php on line 316
+[14-Nov-2018 15:45:45 Asia/Ho_Chi_Minh] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\battleship\invite.php on line 56
+[19-Nov-2018 22:21:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:21:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:21:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:22:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:22:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:23:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:23:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:25:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:31:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:46:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 22:55:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 23:26:55 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\battleship\classes\player.class.php on line 357
+[19-Nov-2018 23:27:03 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\battleship\classes\player.class.php on line 357
+[19-Nov-2018 23:27:53 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\battleship\classes\player.class.php on line 357
+[19-Nov-2018 23:28:02 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ';', expecting function (T_FUNCTION) in C:\xampp\htdocs\battleship\classes\player.class.php on line 345
+[19-Nov-2018 23:45:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Nov-2018 23:45:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Nov-2018 23:54:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 23:56:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: method in C:\xampp\htdocs\battleship\classes\game.class.php on line 349
+[19-Nov-2018 23:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[20-Nov-2018 00:51:18 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Nov-2018 19:24:01 Europe/Berlin] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\battleship\includes\inc.global.php on line 60
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[20-Nov-2018 08:33:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:04:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:04:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:06:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:06:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:14:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:14:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:21:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:21:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 01:21:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 01:21:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:29:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:29:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:37:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:37:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 08:46:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 08:46:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:02:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:02:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:07:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:07:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:16:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:16:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:18:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:18:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:19:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:19:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:22:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:22:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:25:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:25:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:26:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:26:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:26:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:26:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 09:26:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 09:26:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 23:58:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 23:58:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 23:58:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 23:58:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[21-Nov-2018 23:58:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[21-Nov-2018 23:58:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 00:33:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 00:33:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:00:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:00:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:10:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:10:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:14:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:14:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:14:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:14:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:14:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:14:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:14:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:14:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:14:43 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[22-Nov-2018 01:14:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:14:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:16:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:16:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:16:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:16:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:16:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:16:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:17:50 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[22-Nov-2018 01:18:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:18:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:25:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:25:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 01:25:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[22-Nov-2018 01:25:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[22-Nov-2018 19:54:10 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:35:58 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:36:26 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:36:44 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:42:28 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:49:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:49:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 12:49:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:49:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 12:51:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:51:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 12:58:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:58:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 12:58:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:58:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 12:58:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:58:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 12:59:02 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[23-Nov-2018 12:59:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 12:59:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 23:57:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 23:57:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 23:57:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 23:57:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 23:57:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 23:57:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[23-Nov-2018 23:59:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[23-Nov-2018 23:59:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:00:50 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:00:50 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:00:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:00:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:11:16 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[24-Nov-2018 00:11:30 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[24-Nov-2018 00:24:39 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[24-Nov-2018 00:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:25:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:25:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:25:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:25:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:34:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:34:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:40:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:40:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:43:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:44:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:44:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:48:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:48:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:50:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:50:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:53:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:53:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:58:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:58:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 00:58:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 00:58:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 01:02:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 01:02:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 01:05:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 01:05:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:44:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:44:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:44:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:44:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:44:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:44:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:44:48 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[24-Nov-2018 15:45:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:45:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:45:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:45:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:45:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:45:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:49:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:49:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:49:23 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[24-Nov-2018 15:49:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[24-Nov-2018 15:49:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[24-Nov-2018 15:49:35 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[24-Nov-2018 15:49:56 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 04:19:27 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 04:19:41 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 04:20:05 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 04:20:17 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 04:20:43 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 04:21:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[03-Dec-2018 04:21:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[03-Dec-2018 11:40:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[03-Dec-2018 11:40:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[03-Dec-2018 11:52:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[03-Dec-2018 11:52:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[03-Dec-2018 06:08:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected ':' in C:\xampp\htdocs\battleship\includes\html.general.php on line 206
+[03-Dec-2018 06:08:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Pads' (T_STRING) in C:\xampp\htdocs\battleship\includes\html.general.php on line 206
+[03-Dec-2018 06:08:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Pads' (T_STRING) in C:\xampp\htdocs\battleship\includes\html.general.php on line 206
+[03-Dec-2018 06:08:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Pads' (T_STRING) in C:\xampp\htdocs\battleship\includes\html.general.php on line 206
+[03-Dec-2018 06:08:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Pads' (T_STRING) in C:\xampp\htdocs\battleship\includes\html.general.php on line 206
+[03-Dec-2018 06:09:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'Pads' (T_STRING) in C:\xampp\htdocs\battleship\includes\html.general.php on line 206
+[03-Dec-2018 21:08:05 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[03-Dec-2018 21:08:25 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[05-Dec-2018 10:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:23:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:24:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:25:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 10:26:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 14:33:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[05-Dec-2018 21:52:25 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[05-Dec-2018 21:52:43 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 09:48:41 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'tdclick' (T_STRING) in C:\xampp\htdocs\battleship\classes\game.class.php on line 806
+[07-Dec-2018 10:03:04 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:04:18 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:18:10 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:26:20 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:26:30 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:28:03 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:28:19 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:28:35 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:33:08 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:35:27 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:37:24 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:37:37 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 10:37:54 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 12:29:55 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 12:30:51 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 14:26:15 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 21:30:22 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 21:31:45 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 21:31:56 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 21:36:05 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[07-Dec-2018 21:36:49 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[11-Dec-2018 22:46:43 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[11-Dec-2018 22:47:16 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[11-Dec-2018 22:49:33 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[11-Dec-2018 22:50:03 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[11-Dec-2018 22:50:18 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[11-Dec-2018 22:50:25 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:41:54 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:53:05 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:53:46 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:54:29 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:54:37 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:55:05 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:55:11 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:55:21 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[12-Dec-2018 13:55:30 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[14-Dec-2018 10:58:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit1 in /opt/lampp/htdocs/battleship/invite.php on line 99
+[14-Dec-2018 11:19:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 53
+[14-Dec-2018 11:23:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/setup.php on line 90
+[14-Dec-2018 11:24:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:24:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:24:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:24:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:25:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: submit in /opt/lampp/htdocs/battleship/invite.php on line 54
+[14-Dec-2018 11:45:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:47:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:47:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:47:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:47:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:47:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:47:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:47:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:48:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:48:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:49:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:49:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: player in /opt/lampp/htdocs/battleship/game.php on line 220
+[14-Dec-2018 11:53:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 11:54:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 12:36:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 12:36:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/game.php on line 210
+[14-Dec-2018 13:38:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 13:38:28 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/setup.php on line 90
+[14-Dec-2018 13:44:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 13:53:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 13:56:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 13:56:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 13:56:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in /opt/lampp/htdocs/battleship/invite.php on line 19
+[14-Dec-2018 13:56:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 14:02:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: gamepad_selection in /opt/lampp/htdocs/battleship/invite.php on line 108
+[14-Dec-2018 14:18:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in /opt/lampp/htdocs/battleship/login.php on line 21
+[14-Dec-2018 14:18:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in /opt/lampp/htdocs/battleship/login.php on line 22
+[14-Dec-2018 22:34:15 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[14-Dec-2018 22:34:16 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[14-Dec-2018 22:34:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[14-Dec-2018 22:34:36 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[14-Dec-2018 22:34:52 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[14-Dec-2018 22:35:16 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[14-Dec-2018 22:55:37 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[14-Dec-2018 22:59:04 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[15-Dec-2018 08:32:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[15-Dec-2018 08:32:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[15-Dec-2018 09:55:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[15-Dec-2018 09:55:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[15-Dec-2018 14:05:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[15-Dec-2018 14:05:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[15-Dec-2018 22:49:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[15-Dec-2018 22:49:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[15-Dec-2018 22:54:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[15-Dec-2018 22:54:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[16-Dec-2018 02:56:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[16-Dec-2018 02:56:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[16-Dec-2018 06:12:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[16-Dec-2018 06:12:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[16-Dec-2018 11:01:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[16-Dec-2018 11:01:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[16-Dec-2018 13:45:30 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[17-Dec-2018 06:30:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[17-Dec-2018 06:30:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[17-Dec-2018 08:07:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[17-Dec-2018 08:07:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[17-Dec-2018 15:03:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[17-Dec-2018 15:03:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[17-Dec-2018 17:16:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[17-Dec-2018 17:16:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[17-Dec-2018 19:09:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[17-Dec-2018 19:09:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[18-Dec-2018 01:10:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[18-Dec-2018 01:10:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[18-Dec-2018 04:54:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[18-Dec-2018 04:54:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[18-Dec-2018 07:06:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[18-Dec-2018 07:06:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[18-Dec-2018 08:14:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[18-Dec-2018 08:14:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[18-Dec-2018 09:23:26 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:37:57 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:38:10 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:38:20 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:39:08 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:40:09 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:40:28 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:42:26 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:42:52 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:43:35 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:44:11 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:44:49 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:45:14 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:46:42 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:51:50 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:57:08 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:57:57 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:58:12 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:58:40 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:58:58 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 09:59:59 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 10:00:24 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 10:01:41 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 10:04:11 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 10:04:58 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 10:10:39 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:21:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[18-Dec-2018 13:21:15 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:21:37 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:22:54 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:23:19 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:23:30 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:23:47 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:23:54 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:24:11 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:24:23 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:25:39 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:25:52 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:26:12 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:26:27 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:26:47 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:26:57 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:27:11 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 13:27:24 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:04:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[18-Dec-2018 14:04:26 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:04:47 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:05:13 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:06:29 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:06:55 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:07:41 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:08:20 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:08:52 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:12 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:18 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:23 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:40 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:45 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:50 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:10:58 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:02 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:07 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:18 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:23 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:27 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:32 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:11:42 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:12:11 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:12:19 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:12:23 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:12:42 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:12:50 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:12:56 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:00 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:06 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:10 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:21 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:25 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:31 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:38 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:43 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:48 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:52 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:13:56 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:14:03 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:14:18 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[18-Dec-2018 14:14:26 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 04:03:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 04:03:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 04:05:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 04:05:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 05:44:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 05:44:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 06:09:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 06:09:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 06:15:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 06:15:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 09:57:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 09:57:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 09:57:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 09:57:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 09:57:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 09:57:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 10:07:12 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 13:53:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 13:53:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:00:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[19-Dec-2018 14:00:40 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 14:11:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 14:11:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:27:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[19-Dec-2018 14:27:40 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 14:28:13 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 14:28:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: Player in C:\xampp\htdocs\battleship\game.php on line 210
+[19-Dec-2018 14:28:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method Game::get_get_my_count() in C:\xampp\htdocs\battleship\game.php on line 214
+[19-Dec-2018 14:28:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 14:28:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:28:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 14:28:23 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:28:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: Player in C:\xampp\htdocs\battleship\game.php on line 210
+[19-Dec-2018 14:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method Game::get_get_my_count() in C:\xampp\htdocs\battleship\game.php on line 214
+[19-Dec-2018 14:28:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: Player in C:\xampp\htdocs\battleship\game.php on line 210
+[19-Dec-2018 14:28:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method Game::get_get_my_count() in C:\xampp\htdocs\battleship\game.php on line 214
+[19-Dec-2018 14:29:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 14:29:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:29:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 14:29:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:29:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username_err in C:\xampp\htdocs\battleship\login.php on line 21
+[19-Dec-2018 14:29:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: password_err in C:\xampp\htdocs\battleship\login.php on line 22
+[19-Dec-2018 14:34:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: gamepad in C:\xampp\htdocs\battleship\invite.php on line 19
+[19-Dec-2018 14:34:43 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 14:35:12 Asia/Ho_Chi_Minh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\battleship\classes\email.class.php on line 183
+[19-Dec-2018 14:35:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: Player in C:\xampp\htdocs\battleship\game.php on line 210
+[19-Dec-2018 14:35:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method Game::get_get_my_count() in C:\xampp\htdocs\battleship\game.php on line 214
+[19-Dec-2018 14:36:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method Game::get_get_my_count() in C:\xampp\htdocs\battleship\game.php on line 212
+[19-Dec-2018 14:41:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114
+[19-Dec-2018 14:41:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: token in C:\xampp\htdocs\battleship\includes\func.global.php on line 142
+[19-Dec-2018 14:42:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: game_id in C:\xampp\htdocs\battleship\ajax_helper.php on line 114

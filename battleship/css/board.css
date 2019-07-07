@@ -1,0 +1,224 @@
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    width: unset;
+    height: unset;
+}
+
+.msg,.sunk,.finished{
+    color:#FFF;
+    font-weight:bold;
+    font-size:16px;
+    line-height:24px;
+    background:#C00;
+    padding:4px;
+    text-align:center;
+    margin-bottom:1ex
+}
+.won{
+    background:#093
+}
+.lost{
+    background:#C00
+}
+table.board,table.noboard{
+    float:left;
+    margin:10px
+}
+table.noboard{
+    width:354px;
+    height:354px;
+    border:2px solid black;
+    font-size:28px;
+    vertical-align:middle;
+    text-align:center;
+    background-color:#DEF;
+    color:#333;
+    line-height:335px
+}
+* html div.noboard{
+    width:358px;
+    height:358px
+}
+div#board_data:after{
+    content:'.';
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden
+}
+* html div#board_data{
+    zoom:1
+}
+div.board_info{
+    float:left;
+    margin:0 10px;
+    width:356px;
+    text-align:right
+}
+table.board_info span{
+    float:right;
+    display:block;
+    line-height:16px
+}
+div.board_info .fleet{
+    float:left;
+    font-size:16px;
+    font-weight:bold
+}
+div.boats{
+    text-align:left;
+    width:200px;
+    height:354px;
+    float:left;
+    margin:10px
+}
+div.boats div.boat{
+    width:180px;
+    height:35px;
+    float:left;
+    clear:right
+}
+table.board td,table.boat td{
+    float:left;
+    width:30px;
+    height:30px;
+    border:1px solid #005;
+    background-color:rgba(117, 255, 198, 1);
+    font-weight:bold;
+    color:#000
+}
+table.board tr.row{
+    float:none;
+    clear:both;
+    width:auto;
+    height:32px;
+    border:2px solid #000;
+    border-width:0 2px 0;
+    background-color:transparent;
+    font-weight:normal;
+    overflow:visible
+}
+table.board tr.row.top,table.board tr.row.bottom{
+    height:17px;
+    border:2px solid #000;
+    border-width:2px 2px 0
+}
+table.board tr.row.bottom{
+    border:2px solid #000;
+    border-width:0 2px 2px
+}
+table.board tr.top td,table.board tr.bottom td{
+    height:15px;
+    line-height:15px;
+    border:1px solid #DDD;
+    background-color:#EFF4FF;
+    text-align:center
+}
+table.board tr.top td.corner,table.board tr.bottom td.corner{
+    width:15px;
+    height:15px;
+    border:1px solid #DDD;
+    background-color:#EFF4FF
+}
+table.board td.side{
+    width:15px;
+    line-height:30px;
+    border:1px solid #DDD;
+    background-color:#EFF4FF;
+    text-align:center
+}
+td.v-bow{
+    background-image:url("../images/v_bow.gif")
+}
+td.v-fore{
+    background-image:url("../images/v_fore.gif")
+}
+td.v-mid{
+    background-image:url("../images/v_mid.gif")
+}
+td.v-aft{
+    background-image:url("../images/v_aft.gif")
+}
+td.v-stern{
+    background-image:url("../images/v_stern.gif")
+}
+td.h-bow{
+    background-image:url("../images/h_bow.gif")
+}
+td.h-fore{
+    background-image:url("../images/h_fore.gif")
+}
+td.h-mid{
+    background-image:url("../images/h_mid.gif")
+}
+td.h-aft{
+    background-image:url("../images/h_aft.gif")
+}
+td.h-stern{
+    background-image:url("../images/h_stern.gif")
+}
+/**/
+
+/**/
+table.board td.prevshot{
+    border:2px solid yellow;
+    margin:-1px;
+    position:relative;
+    z-index:2
+}
+table.board td.curshot{
+    border:2px solid white;
+    margin:-1px;
+    position:relative;
+    z-index:4
+}
+.clr{
+    clear:both
+}
+#game div{
+    clear:both;
+    text-align:center
+}
+.shots{
+    text-align:center;
+    width:200px;
+    margin:5px auto -20px;
+    font-size:14px;
+    font-weight:bold;
+    color:#C00
+}
+.shots img{
+    width:15px;
+    height:15px;
+    border:0;
+    vertical-align:middle
+}
+h2 span{
+    margin:0 3em
+}
+#chats{
+    height:auto
+}
+#chats .bla{
+    color:#DDD;
+    background-color:#333
+}
+#chats .whi{
+    color:#333;
+    background-color:#DDD
+}
+#chats .blu{
+    color:#00D;
+    background-color:#333
+}
+#chats .private{
+    background-color:#BBF;
+    color:#000
+}
+ 
