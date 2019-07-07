@@ -7,6 +7,7 @@ Ngo Xuan Duc 		- 15520124
 
 Youtube: https://youtu.be/I3XcrRpSZzk
 1. Instruction
+
 Create Window Server with Amazon Web Services and software installation:
 -	Xampp ( port 80) version PHP 5.6.38: create web server. 
  		Source in the *battleship* folder, save to: *..\xampp\htdocs\battleship\\* 
